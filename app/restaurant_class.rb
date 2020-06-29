@@ -27,11 +27,7 @@ attr_accessor :star_rating
 
 end
 
-rest1 = Restaurant.new("Brooklyn Pizza", 4.5, resown)
-rest2 = Restaurant.new("Sunset Cafe", 4, resown)
-rest3 = Restaurant.new("Salad City", 4, resown3)
-rest4 = Restaurant.new("La Famiglia", 4.5, resown4)
-rest5 = Restaurant.new("Vinnie's Diner", 3.5, resown2)
+
 
 
 

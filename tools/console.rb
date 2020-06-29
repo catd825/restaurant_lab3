@@ -24,11 +24,16 @@ rest3 = Restaurant.new("Salad City", 4, resown3)
 rest4 = Restaurant.new("La Famiglia", 4.5, resown4)
 rest5 = Restaurant.new("Vinnie's Diner", 3.5, resown2)
 
+menu_item1 = MenuItem.new(rest1, r1)
+menu_item2 = MenuItem.new(rest2, r4)
+menu_item3 = MenuItem.new(rest3, r5)
+menu_item4 = MenuItem.new(rest5, r2)
 
-RestaurantOwner.average_age
+p RestaurantOwner.average_age
 
-Restaurant.recipes
-Recipe.restaurants
+p Restaurant.recipes
+p Recipe.restaurants
+
 
 
 
