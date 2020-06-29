@@ -15,7 +15,8 @@ class Recipe
         @@all << self #self should be the instance, not the class. for exaple, will start with r1, then shovel in r2.  we want to do this upon initialization.
     end
 
-    def self.all #i want this method to be on the class, not an instance - therefore we call self. we call all on the self method.  the method we are creating is 'all;, and it is on the self method.  Self = Recipe
+    def self.all #i want this method to be on the class, not an instance - therefore we call self. we call all on the .  the method we are creating is 'all;, and it is on the self method.  Self = Recipe
+        #method is all, attached to 'self' (recipe)
         @@all  #all will output the entire instance, not just the instance variable
     end
 
@@ -34,6 +35,7 @@ class Recipe
 end
 r1 = Recipe.new("Salad", "Caesar")
 r2 = Recipe.new("Pasta", "Pesto")
+r3 = Recipe.new("Cake", "Tiramisu")
 
 #Recipe.all
 
